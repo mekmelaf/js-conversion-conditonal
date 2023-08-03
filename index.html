@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script/main.js"></script>
+    <script src="https://kit.fontawesome.com/f1e4557b82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS Conversion</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <h2 class="title">Lenght Converter</h2>
+        </div>
+        <div>
+            <input type="number" id="lenght1">
+            <select name="" id="option1">
+                <option value="m">Meter</option>
+                <option value="cm">Centimeter</option>
+                <option value="in">Inch</option>
+                <option value="km">Kilometer</option>
+            </select>
+                <i class="fa-solid fa-arrow-right"></i>
+            <select name="" id="option2">
+                <option value="m">Meter</option>
+                <option value="cm">Centimeter</option>
+                <option value="in">Inch</option>
+                <option value="km">Kilometer</option>
+            </select>
+           
+        <div class="result">
+            <input type="number" id="lenght2" readonly> 
+            <input type="button" value="Check" onclick="check()" id="checkBtn">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>
